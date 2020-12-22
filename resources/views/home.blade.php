@@ -10,7 +10,7 @@
 
                 <form method="post" action="/home">
                     @csrf
-                    輸入網址
+                    輸入網址eeeeee
                     <input type="text" name="url" id="url">
                     <input type="submit" value="新增">
                     @error('url')
