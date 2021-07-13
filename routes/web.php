@@ -18,7 +18,7 @@ use Illuminate\Support\Facades\Auth;
 //     return view('login');
 // });
 
-Auth::routes();
+
 Route::get('/','App\Http\Controllers\ArticleController@welconmadd');
 
 Route::post('/home','App\Http\Controllers\ArticleController@store');
